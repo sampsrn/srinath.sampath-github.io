@@ -1,0 +1,68 @@
+---
+// Self-hosted fonts (no external requests — faster, privacy-friendly, offline-safe).
+import '@fontsource-variable/fraunces';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/jetbrains-mono';
+import { profile } from '../config';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = profile.name,
+  description = profile.description,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/me.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body class="min-h-screen bg-paper font-sans text-ink antialiased">
+    <slot />
+
+    <style is:global>
+      :root {
+        scroll-behavior: smooth;
+      }
+
+      /* Visible keyboard focus (accessibility floor — AGENTS.md). */
+      :focus-visible {
+        outline: 2px solid theme('colors.accent.DEFAULT');
+        outline-offset: 3px;
+        border-radius: 2px;
+      }
+
+      /* Respect users who prefer reduced motion. */
+      @media (prefers-reduced-motion: reduce) {
+        :root {
+          scroll-behavior: auto;
+        }
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </body>
+</html>
