@@ -24,3 +24,7 @@ npm-debug.log*
 
 # claude code — per-user local settings (keep launch.json shared)
 .claude/settings.local.json
+
+# vercel — local project link + OIDC token (added by `vercel link`)
+.vercel
+.env*
