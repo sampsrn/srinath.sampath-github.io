@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# vercel
+.vercel/
+
+# personal source documents (not for public repo)
+Srinath_Sampath_Resume_v2.pdf
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# env
+.env
+.env.*
+!.env.example
+
+# claude code — per-user local settings (keep launch.json shared)
+.claude/settings.local.json
+
+# vercel — local project link + OIDC token (added by `vercel link`)
+.vercel
+.env*

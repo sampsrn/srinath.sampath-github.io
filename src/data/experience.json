@@ -1,0 +1,44 @@
+[
+  {
+    "role": "Associate Director of Engineering",
+    "company": "Thermo Fisher Scientific",
+    "period": "2022 – Present",
+    "summary": "Lead three engineering teams (25+ engineers across Pharmacovigilance, Corevitas RWE, and Vestrum MDM) as hands-on architect and product owner, owning a multi-million-dollar budget and technical roadmap. Architected serverless AWS Step Functions + Lambda platforms that orchestrate pharmacovigilance workflows end-to-end at 100K+ cases/year and 99.9% reliability, and built an agentic RAG platform (vector retrieval, LLM adverse-event extraction, human-in-the-loop guardrails) that cut manual case-processing time 40% and lifted extraction accuracy above 95%.",
+    "tags": ["AWS Step Functions", "Lambda", "Aurora PostgreSQL", "Redshift", "Agentic AI", "RAG", "Python", "Team Leadership"]
+  },
+  {
+    "role": "Sr. Manager, R&D",
+    "company": "Clario",
+    "period": "2017 – 2022",
+    "summary": "Architected and delivered adaptive end-to-end cloud solutions for complex systems integrations across Clario's global platforms, harmonizing clinical and operational data into a centralized platform on AWS (EC2, Glue, RDS, S3, Redshift, CloudFormation). Delivered Enterprise DW/MDM, OneSource clinical BI, ePRO/EXPERT, and business microservices; built Python/SQL ETL for eCOA, Cardiac, and Respiratory data and Tableau dashboards under SAFe Agile delivery.",
+    "tags": ["AWS", "Data Modeling", "MDM", "ETL", "Python", "Tableau", "SAFe Agile"]
+  },
+  {
+    "role": "Sr. Software Engineer",
+    "company": "IRI (Client: ERT)",
+    "period": "2016 – 2017",
+    "summary": "Led clinical data management solutions and the design of world-class data pipelines. Performance-tuned mappings and sessions and wrote complex SQL to ingest iSpiro/AM3 and CGM responses under heavy volume. Designed a DDD microservice architecture with Python Flask REST APIs and set up full CI/CD pipelines using DevSecOps best practices.",
+    "tags": ["Clinical Data", "SQL Tuning", "Python Flask", "REST APIs", "DDD", "CI/CD"]
+  },
+  {
+    "role": "Sr. Software Engineer",
+    "company": "iMatrix Corp (Client: ERT)",
+    "period": "2012 – 2016",
+    "summary": "Gathered requirements and designed, developed, and tested multiple clinical systems while leading technical guidance and code reviews. Developed stored procedures, functions, and packages in PL/SQL and built complex ePRO visit-scheduling screens with Oracle APEX and JavaScript.",
+    "tags": ["PL/SQL", "Oracle APEX", "JavaScript", "Clinical Systems", "Code Review"]
+  },
+  {
+    "role": "Application Developer III",
+    "company": "ESPN",
+    "period": "2009 – 2012",
+    "summary": "Partnered with business users to design inbound/outbound interfaces and authored functional and technical specifications. Created and maintained stored procedures, functions, packages, and DB triggers, and developed custom Oracle Forms/Reports (11g/10g/6i) for complex calculations and automated scheduling in the ESPN Program Scheduling Application.",
+    "tags": ["Oracle", "PL/SQL", "Oracle Forms/Reports", "Interfaces", "Testing"]
+  },
+  {
+    "role": "Programmer Analyst",
+    "company": "Verinon Technology",
+    "period": "2008 – 2009",
+    "summary": "Defined system requirements and designed, prototyped, developed, tested, and implemented applications. Built events, validation master plans, and forms for Laboratory Information Management Systems (LIMS), including Applied Biosystems' SQL*LIMS barcode system and lab-instrument interfaces, with extensive PL/SQL supporting core business logic.",
+    "tags": ["LIMS", "SQL*LIMS", "PL/SQL", "Validation", "Lab Interfaces"]
+  }
+]

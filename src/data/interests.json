@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Agentic AI & RAG",
+    "note": "Multi-step LLM workflows, vector embeddings and semantic retrieval, AI-driven extraction and entity resolution, with human-in-the-loop validation and guardrails."
+  },
+  {
+    "name": "LLM Evaluation & Guardrails",
+    "note": "Model selection, prompt-engineering patterns, and evaluation/guardrail frameworks that make GenAI safe and reliable in regulated (GxP / 21 CFR Part 11) settings."
+  },
+  {
+    "name": "AWS Serverless Architecture",
+    "note": "Step Functions + Lambda orchestration, Glue, S3, and CloudFormation for scalable, event-driven data platforms."
+  },
+  {
+    "name": "Cloud Data Platforms",
+    "note": "Aurora PostgreSQL and Amazon Redshift data modeling, materialized views, and stored procedures for low-latency clinical data delivery."
+  },
+  {
+    "name": "Data Lakes & RWE Pipelines",
+    "note": "Self-service, governed data-lake pipelines and central catalogs serving downstream Real World Evidence analytics teams."
+  },
+  {
+    "name": "SQL Performance Tuning",
+    "note": "Deep query-plan analysis, indexing strategy, and optimization across PostgreSQL and Redshift to drive reliability and cut reporting latency."
+  },
+  {
+    "name": "Master Data Management",
+    "note": "Unifying disparate vendor feeds into longitudinal, trustworthy records using AI-based entity resolution."
+  },
+  {
+    "name": "Python Automation",
+    "note": "Modular Python/Lambda services for ETL/ELT orchestration, ingestion, and LLM-powered data cleaning and mapping generation."
+  }
+]

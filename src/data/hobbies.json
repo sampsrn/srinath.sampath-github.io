@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Beaches & the Ocean",
+    "note": "Nothing resets me like salt air and surf — chasing coastlines, long walks on the sand, and the endless blue horizon wherever the water meets the sky."
+  },
+  {
+    "name": "Motorcycle Riding",
+    "note": "Two wheels, open road, no algorithms. Carving through mountain switchbacks and chasing sunrises on long rides is my favorite kind of throttle therapy."
+  },
+  {
+    "name": "Tinkering with AI",
+    "note": "Building small side projects with the latest LLM tooling for fun — placeholder, edit in src/data/hobbies.json."
+  },
+  {
+    "name": "Travel",
+    "note": "Discovering new places, food, and cultures with family — placeholder, edit in src/data/hobbies.json."
+  }
+]
